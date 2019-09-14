@@ -222,7 +222,8 @@ button {
     font-size: 14px;
 	margin: 15px 0px 15px 0px;
 	padding: 8px 30px;
-	border-radius: 10px;
+    border-radius: 10px;
+    background: white;
 }
 
 button:hover {
@@ -238,13 +239,17 @@ button:hover {
 }
 
 .square {
-	width: 395px;
-	margin: 30px 0;
-    padding: 0px 2% 10px;
+	width: 370px;
+	margin: 5px 12px 40px 12px;
     border-bottom: 1px dashed black;
-    
     }
 
 .squareimg {
     margin-bottom: 10px;
+}
+
+.work {
+    padding: 0px 2% 10px;
+    display: flex;
+    flex-direction: column;
 }
