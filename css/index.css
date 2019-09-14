@@ -216,3 +216,35 @@ footer nav a {
     display: flex;
     flex-direction: column;
 }
+
+button {
+    border: 3px solid;
+    font-size: 14px;
+	margin: 15px 0px 15px 0px;
+	padding: 8px 30px;
+	border-radius: 10px;
+}
+
+button:hover {
+	background: black;
+	color: whitesmoke;
+	cursor: pointer;
+}
+
+.squares {
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.square {
+	width: 395px;
+	margin: 30px 0;
+    padding: 0px 2% 10px;
+    border-bottom: 1px dashed black;
+    
+    }
+
+.squareimg {
+    margin-bottom: 10px;
+}
