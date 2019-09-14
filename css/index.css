@@ -206,3 +206,13 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*** ABOUT PAGE ***/
+
+.about {
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding: 0px 2% 10px;
+    display: flex;
+    flex-direction: column;
+}
