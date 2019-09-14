@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    align-items: center;
+}
+
+.lambda_logo {
+    margin: 13px 0px 31px 0px;
+}
+.link_nav {
+	font-size: 13px;
+    font-weight: 300;
+    color: black;
+	text-decoration: none;
+	margin: 8px 40px 0px 40px;
+}
+
+.link_nav:hover {
+	opacity: .3;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
