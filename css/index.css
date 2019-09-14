@@ -83,11 +83,10 @@ nav {
     margin: 13px 0px 31px 0px;
 }
 .link_nav {
-	font-size: 13px;
-    font-weight: 300;
+	font-size: 14px;
     color: black;
 	text-decoration: none;
-	margin: 8px 40px 0px 40px;
+	padding: 10px 3%;
 }
 
 .link_nav:hover {
@@ -133,6 +132,46 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#one {
+    background-color: teal;
+}
+
+#two {
+    background-color: gold;
+}
+
+#three {
+    background-color: cadetblue;
+}
+
+#four {
+    background-color: coral;
+}
+
+#five {
+    background-color: crimson;
+}
+
+#six {
+    background-color: forestgreen;
+}
+
+#seven {
+    background-color: darkorchid;
+}
+
+#eight {
+    background-color: hotpink;
+}
+
+#nine {
+    background-color: indigo;
+}
+
+#ten {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
